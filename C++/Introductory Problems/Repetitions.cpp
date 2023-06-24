@@ -5,7 +5,7 @@ int main()
 {
   string x;
   cin >> x;
-  int cur=1,ans=0;
+  int cur=1,ans=1;
   for(int i=1;i<x.length();i++){
     if(x[i]==x[i-1]){
       cur++;
