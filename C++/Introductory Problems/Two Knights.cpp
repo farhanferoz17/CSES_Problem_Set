@@ -9,7 +9,7 @@ int main()
   cin >> n;
   ll ans;
 
-  for(int i=0;i<n;i++){
+  for(ll i=0;i<n;i++){                                  // Be careful about the data type of the iterator
     ans = ((i*i)*(i*i - 1) / 2) - (4 * (i-2) * (i-1));  // The explanation is written after the code blocks
     cout << ans << endl;
   }
