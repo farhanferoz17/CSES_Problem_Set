@@ -7,7 +7,7 @@ int main()
 {
   ll n,x,summ=0;
   cin >> n;
-  for(int i=0;i<n;i++){
+  for(int i=1;i<n;i++){
     cin >> x;
     summ += x;
   }
