@@ -10,9 +10,14 @@ int main()
   ll ans;
 
   for(int i=0;i<n;i++){
-    ans = ((i)*(i+5)*(i*i - i + 2))/2;
+    ans = ((i*i)*(i*i - 1) / 2) - (4 * (i-2) * (i-1));  // The explanation is written after the code blocks
     cout << ans << endl;
   }
   
   return 0;
 }
+
+/*
+Explanation: Total ways to place two knights (i*i) choose 2 i.e. (i*i)*(i*i - 1)/2
+Positions where they can attack each other: 4*(i-2)*(i-1)
+*/
