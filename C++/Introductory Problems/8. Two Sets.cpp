@@ -7,7 +7,7 @@ int main()
 {
   ll n;
   cin >> n;
-  if(n%4 == 0 || n%4 == 2){
+  if(n%4 == 1 || n%4 == 2){
     cout << "NO\n";
   }
   else if(n%4 == 3){
